@@ -1,7 +1,17 @@
-# Vue 3 + Vite
+<p align="center">
+  <h1>Vite + Vue + VueX + Vue Router + TailwindCss + JIT</h1>
+</p>
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<p>
+<img src="https://img.shields.io/github/stars/vivekascoder/vite-vue-tailwind-jit?style=for-the-badge">
+<img src="https://img.shields.io/github/forks/vivekascoder/vite-vue-tailwind-jit?style=for-the-badge">
+</p>
 
-## Recommended IDE Setup
+This template allows you to quickly scaffold a Vue project with Vue Router, VueX, TailwindCss with JIT Compiler and vite as a bundler. We use Vite because it's much faster than webpack. We use tailwindcss JIT compiler because it makes tailwindcss build time negligible and offers more features that you can check here [Tailwind JIT](https://tailwindcss.com/docs/just-in-time-mode). Talking about Vite, you can find more information here [Vite](https://vitejs.dev/).
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+## How to Install.
+First of all make sure you have yarn installed. If you have it you can create a new repo with this template and can clone it.
+
+![Use this template](https://i.imgur.com/Gtt5CPx.png)
+
+After clonning it, you can simply go to the folder and type `yarn` to install the dependencies.
