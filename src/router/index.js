@@ -1,6 +1,7 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '/src/pages/Home.vue'
 import About from '/src/pages/About.vue'
+import Page404 from '/src/pages/404.vue'
 
 const routes = [
   {
@@ -12,10 +13,16 @@ const routes = [
     path: '/about',
     name: 'About',
     component: About
-  }
+  },
+  {
+    path: '/404',
+    component: Page404
+  },
+  { path: '/:pathMatch(.*)*', redirect: '/404' }
 ]
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes
 })
+
 export default router

@@ -1,5 +1,5 @@
 <template>
-  <div class="px-2">
+  <div>
     <h1>This is a homepage.</h1>
     <Counter class="mx-auto" />
   </div>

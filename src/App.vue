@@ -9,7 +9,7 @@ const links = [
 
 <template>
   <Navbar title="DemoApp" :links="links" />
-  <div class="pt-20">
+  <div class="pt-20 px-2">
     <router-view />
   </div>
 </template>
