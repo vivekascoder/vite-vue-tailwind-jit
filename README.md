@@ -1,5 +1,5 @@
 <p align="center">
-  <h1>Vite + Vue + VueX + Vue Router + TailwindCss + JIT</h1>
+  <h1>Vite + Vue + Pinia + Vue Router + TailwindCss + JIT + EsLint + Prettier</h1>
 </p>
 
 <p>
