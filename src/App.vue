@@ -1,9 +1,9 @@
 <script setup>
-import Navbar from './components/Navbar.vue';
+import Navbar from './components/Navbar.vue'
 const links = [
-  {id: 1, name: 'Home', path: '/'},
-  {id: 2, name: 'About Us', path: '/about'},
-  {id: 3, name: 'Docs', path: '/docs'}
+  { id: 1, name: 'Home', path: '/' },
+  { id: 2, name: 'About Us', path: '/about' },
+  { id: 3, name: 'Docs', path: '/docs' }
 ]
 </script>
 
@@ -14,5 +14,4 @@ const links = [
   </div>
 </template>
 
-<style>
-</style>
+<style></style>
